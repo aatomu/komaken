@@ -8,5 +8,8 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Install SSH"
-      - run: ssh -h
+      - run: echo "Save SSH key"
+      - run: mkdir -p .ssh && chmod 700 .ssh
+      - run: echo "${{secrets.SSH_SECRET_KEY}}" > .ssh/id_rsa && chmod 600 .ssh/id_rsa
+      - run: echo "Connect SSH"
+      - run: ssh -o "StrictHostKeyChecking=no" -i .ssh/id_rsa -p ${{secrets.SSH_PORT}} ${{secrets.SSH_HOSTNAME}} ls
