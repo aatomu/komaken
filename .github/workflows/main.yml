@@ -5,7 +5,7 @@ on: [push]
 
 
 jobs:
-  check-bats-version:
+  clone:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Save SSH key"
