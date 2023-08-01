@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Install SSH"
-      - run: apt install ssh -y
+      - run: ssh -h
