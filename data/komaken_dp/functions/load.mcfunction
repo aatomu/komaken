@@ -1,0 +1,1 @@
+say komaken_dp is loaded
