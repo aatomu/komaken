@@ -1,1 +1,1 @@
-execute as @a if predicate komaken_dp:is_sneaking run msg Sneaking
+execute as @a if predicate komaken_dp:is_sneaking run me Sneaking!
