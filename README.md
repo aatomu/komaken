@@ -1,6 +1,6 @@
 # komaken_DP
 Minecraft Java Edition v1.20.1 Server にほぼリアルタイムで反映されます。  
-ServerIPはDiscordにて
+ServerIPはDiscord "マイクラコマンド研究所"にて
 
 ## How to Use?
 1. discordにて@aatomuにてGithubのUserNameを送ります(出来たらメンション)
