@@ -5,7 +5,7 @@ ServerIPはDiscord "マイクラコマンド研究所"にて
 ## How to Use?
 1. discordにて@aatomuにてGithubのUserNameを送ります(出来たらメンション)
 2. @aatomuが確認後Mailに招待が来てるのでAcceptします
-3. この[レポジトリ](https://github.com/atomu21263/komaken.git)を git cloneします
+3. この[レポジトリ](https://github.com/aatomu/komaken.git)を git cloneします
 4. 中身を編集しgit pushします
 5. MC鯖に反映!
 
